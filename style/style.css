@@ -1,0 +1,45 @@
+@font-face {
+    font-family:'Roboto';
+    src:
+        url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-family:'Roboto';
+}
+footer {
+    top: 100%;
+	min-width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+pre {
+    font-size: 18px;
+}
+.test-outline {
+    border-width: 5px;
+    border-color: hotpink;
+    border: solid;
+}
+.bg-1 {
+    background-color: #d5ccc7;
+}
+.bg-2 {
+    background-color: #28262b;
+}
+.bg-3 {
+    background-color: #a9a29c;
+}
+.bg-4 {
+    background-color: #333333;
+}
+.card {
+    width: 250px;
+}
+.card-img-top {
+    object-fit: contain;
+    height:300px;
+}
